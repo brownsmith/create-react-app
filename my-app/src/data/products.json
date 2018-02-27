@@ -1,0 +1,61 @@
+[
+  {
+    "make": "Fender",
+    "model": "Stratocaster",
+    "spec": {
+      "name": "3 Tone Strat",
+      "image": "3tone-strat.jpg",
+      "neck": "Rosewood"
+    }
+  },
+  {
+    "make": "Fender",
+    "model": "Stratocaster",
+    "spec": {
+      "name": "Black Strat",
+      "image": "black-strat.jpg",
+      "neck": "Rosewood",
+      "body": "Black"
+    }
+  },
+  {
+    "make": "Fender",
+    "model": "Stratocaster",
+    "spec": {
+      "name": "Olive Green Strat",
+      "image": "olive-maple-strat.jpg",
+      "neck": "Rosewood",
+      "body": "Olive green"
+    }
+  },
+  {
+    "make": "Fender",
+    "model": "Stratocaster",
+    "spec": {
+      "name": "Olympic White Strat",
+      "image": "olympic-white-maple.jpg",
+      "neck": "Rosewood",
+      "body": "Olympic white"
+    }
+  },
+  {
+    "make": "Fender",
+    "model": "Stratocaster",
+    "spec": {
+      "name": "Olympic White Strat",
+      "image": "olympic-white-strat.jpg",
+      "neck": "Rosewood",
+      "body": "Olympic white"
+    }
+  },
+  {
+    "make": "Fender",
+    "model": "Stratocaster",
+    "spec": {
+      "name": "Sienna Burst Strat",
+      "image": "sienna-burst-strat.jpg",
+      "neck": "Rosewood",
+      "body": "Sienna burst"
+    }
+  }
+]

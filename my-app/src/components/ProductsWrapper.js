@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import './ProductsWrapper.css';
-import Images from '../data/black-strat.jpg';
 import Product from './Product.js';
 
 export default class ProductsWrapper extends Component {

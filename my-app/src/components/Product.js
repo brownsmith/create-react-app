@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import './Product.css';
-import Images from '../data/black-strat.jpg';
 
 export default class ProductsWrapper extends Component {
   static propTypes = {
@@ -9,7 +8,7 @@ export default class ProductsWrapper extends Component {
   };
 
   _createImage = image => {
-    return <img src={require('../data/' + image)} />;
+    return <img src={require('../data/' + image)} alt="" />;
   };
 
   render() {

@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import './ProductsWrapper.css';
+import Images from '../data/black-strat.jpg';
+import Product from './Product.js';
 
 export default class ProductsWrapper extends Component {
   static propTypes = {
@@ -8,14 +11,17 @@ export default class ProductsWrapper extends Component {
 
   _renderProducts = () => {
     return this.props.data.map((product, key) => (
-      <div key={key}>
-        <p>hi {product.title}</p>
-      </div>
+      <Product productDetails={product} key={key} />
     ));
   };
 
   render() {
     console.log(this.props);
-    return <div className="test">{this._renderProducts()}</div>;
+    return (
+      <div>
+        <h3>Your search returned {this.props.data.length} results</h3>
+        <div className="productsWrapper">{this._renderProducts()}</div>
+      </div>
+    );
   }
 }

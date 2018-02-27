@@ -222,3 +222,12 @@ We are grateful to the authors of existing related projects for their ideas and 
 * [@eanplatter](https://github.com/eanplatter)
 * [@insin](https://github.com/insin)
 * [@mxstbr](https://github.com/mxstbr)
+
+
+
+```sh
+git fetch upstream
+git checkout master
+git checkout upstream/master
+git merge upstream/master
+```

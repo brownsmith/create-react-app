@@ -14,7 +14,7 @@ npx create-react-app my-app
 cd my-app
 npm start
 ```
-Copy files from my-app/src to packages/react-scripts/template/src/
+Edit files in packages/react-scripts/template/src/
 
 Then open [http://localhost:3000/](http://localhost:3000/) to see your app.<br>
 When you’re ready to deploy to production, create a minified bundle with `npm run build`.
